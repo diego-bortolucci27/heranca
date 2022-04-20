@@ -62,11 +62,12 @@
     $tecnico1->setNome("João");
     $tecnico1->setIdade(22);
     $tecnico1->setSexo("Masculino");
-    $tecnico1->setRegistroProfissional(660);
+    $tecnico1->setRegistroProfissional("Desenvolvedor Web");
 
     echo "Nome Ténico: " . $tecnico1->getNome() . "<br>";
     echo "Idade Ténico: " . $tecnico1->getIdade() . "<br>";
     echo "Sexo Ténico: " . $tecnico1->getSexo() . "<br>";
+    echo "Registro Profissional: " . $tecnico1->getRegistroProfissional() . "<br>";
     $tecnico1->praticar();
 
 ?>
